@@ -1,0 +1,51 @@
+body {
+  font-family: "Raleway", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+
+.remark-slide-content {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2870a4), to(#222d51));
+  background: -webkit-linear-gradient(top, #2870a4, #222d51);
+  background: -moz-linear-gradient(top, #2870a4, #222d51);
+  background: -ms-linear-gradient(top, #2870a4, #222d51);
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway';
+  font-weight: normal;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
+
+.fullscreen {
+  padding: 0;
+}
+
+.fullscreen img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate( -50%, 0);
+  width: 50%;
+}
+
+.fullscreen-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 67%;
+
+  background:rgba(0, 0, 0, .75);
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+.fullscreen-overlay small {
+  color: #08c;
+}
