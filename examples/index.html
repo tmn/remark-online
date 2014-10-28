@@ -15,30 +15,121 @@ class: fullscreen
 
 ![Online](../images/full_white_plain.png)
 <div class="fullscreen-overlay">
-  <p>Kick off<small style="display: block;">20/10/2014</small></p>
+  <p>Online<small style="display: block;">remark theme</small></p>
 </div>
 
 
 ---
 
-# Epost
+class: middle, center
 
-Top quote / bottom post
+Forside
 
-Strip mail (signature ++)
+Sentrert tittel / innhold (som denne siden)
+
+Slides med tittel og tekst
+
+Punktvis visning
+
+Bilder
 
 ---
+
+# Forside
+
+Her benyttes classen _fullscreen_ med litt HTML:
+
+```markdown
+class: markdown
+
+![Online](../images/full_white_plain.png)
+<div class="fullscreen-overlay">
+  <p>Online<small style="display: block;">remark theme</small></p>
+</div>
+```
+
+
+---
+
 
 class: center, middle
 
-# Lorem ipsum dolor
+# Sentrert tittel
+
+```markdown
+class: center, middle
+
+# Sentrert tittel
+```
 
 ---
 
-# Testslide
+# Vanlige slides med punkter
 
-* testpunkt
-* testpunkt 2
+* Lorem punkt 1
+* Ipsum punkt 2
+
+Her benyttes ingen spesielle klasser. Vi lager den enkelt med:
+
+```markdown
+# Vanlig slides med punkter
+
+- Lorem punkt 1
+- Lorem pun
+```
+
+---
+
+# Punktvis visning
+
+For å få punkvis visning på klikk sepparerer man innholdet med to bindestrek(--). Eks (klikk videre)
+
+--
+
+- punkt 1
+
+--
+
+- punkt 2
+
+--
+
+
+```markdown
+# Tittel
+
+Lorem ipsum dolor sit amet...
+
+--
+
+- punkt 1
+
+--
+
+- punkt 2
+
+```
+
+
+---
+
+# Bilder
+
+Bilder legges til med
+
+```markdown
+![Bildebeskrivelse her](bilde-URI)
+```
+
+Eks:
+
+```markdown
+![Online](../images/full_white_plain.png)
+```
+
+Som gir
+
+![Online](../images/full_white_plain.png)
 
     </textarea>
     <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
